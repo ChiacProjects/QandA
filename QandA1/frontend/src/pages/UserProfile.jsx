@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback } from '../components/ui/avatar.jsx';
 import { Badge } from '../components/ui/badge.jsx';
 import { formatDistanceToNow } from 'date-fns';
 
-const BACKEND_URL = 'http://localhost:8001';
+const BACKEND_URL = 'https://qanda-2.onrender.com';
 const API = `${BACKEND_URL}/api`;
 
 const UserProfile = () => {

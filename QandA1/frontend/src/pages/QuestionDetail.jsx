@@ -10,7 +10,7 @@ import { ThumbsUp, ThumbsDown, Check } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
 import { toast } from 'sonner';
 
-const BACKEND_URL = 'http://localhost:8001';
+const BACKEND_URL = 'https://qanda-2.onrender.com';
 const API = `${BACKEND_URL}/api`;
 
 const QuestionDetail = () => {

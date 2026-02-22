@@ -10,7 +10,7 @@ import { Badge } from '../components/ui/badge.jsx';
 import { X } from 'lucide-react';
 import { toast } from 'sonner';
 
-const BACKEND_URL ='http://localhost:8001';
+const BACKEND_URL ='https://qanda-2.onrender.com';
 const API = `${BACKEND_URL}/api`;
 
 const AskQuestion = () => {
